@@ -1,0 +1,13 @@
+@keyframes slideBackgrounds {
+    0% { background-image: url('/images/boys.jpg'); }
+    33% { background-image: url('/images/boys1.jpg'); }
+    66% { background-image: url('/images/girls.jpg'); }
+    100% { background-image: url('/images/minim.jpg'); }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .slideshow {
+      animation: slideBackgrounds 15s infinite;
+    }
+  }
+  
